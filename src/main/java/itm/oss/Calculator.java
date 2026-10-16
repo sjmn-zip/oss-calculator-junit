@@ -25,7 +25,7 @@ public int getNextPrime(int num){
     int index = num;
     while(true){
         index +=1;
-        if (isPrime(num)){
+        if (isPrime(index)){
             return index;
         }
     }
